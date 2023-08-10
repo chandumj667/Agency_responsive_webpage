@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;0,600;0,800;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+html{
+    height: 100vh;
+    width: 100%;
+    background: grey;
+}
+
+.first{
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    background-color: black;
+    
+}
+
+.whole{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.whole_contacts i{
+    margin: 3px;
+    cursor: pointer;
+}
+.phn,
+.btn{
+    font-weight: 500;
+    margin-left: 20px;
+}
+.phn i{
+    margin-right: 5px;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(59, 168, 59, 0.893);
+    padding: 5px;
+}
+.btn:hover{
+    background-color: orange;
+    color: black;
+}
+.flx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second{
+    background-color:white;
+    width: 100%;
+    height: 80px;
+    color: black;
+    padding: 10px 40px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.title{
+    font-size:xx-large;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+.sub{
+    margin-top: 7px;
+    font-size: 12px;
+    height: 35px;
+    background-color: rgb(110, 202, 35);
+    color: white;
+    padding: 0 13px ;
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a span{
+    color: rgb(255, 0, 0);
+}
+
+/* .act::after,
+.nav a:hover::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(110, 202, 35);
+} */
+
+.act,
+.nav a:hover{
+    border-bottom: 5px solid orange;
+}
+
+.third{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(110, 202, 35, 0.536), rgba(110, 202, 35, 0.536) ), url(./image.png);
+    display: flex;
+    padding-top: 200px;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+/* .main_title-heading::before,
+.main_title-heading::after{
+    width: 100%;
+    content: "";
+    display: inline-block;
+    width: 30%;
+    height: 30px;
+    background-color: rgba(96, 255, 64, 0.997);
+
+} */
+
+.main_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.space{
+    width: 31%;
+    height: 50px;
+    background-color: rgb(97, 174, 34);
+}
+
+.main_title-heading{
+    letter-spacing: 15px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.main_sub{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main_para{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btnn{
+    background-color: orange;
+    border-radius: 10px;
+    font-weight: 600;
+    color: black;
+    width: 10%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 3px black;
+}
+
+.btnn:hover{
+    background-color: rgb(97, 174, 34);
+    color: white;
+}
+
+.bubble{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bubble p{
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.bubble p:nth-child(2){
+    opacity: 0.8;
+}
+
+.bubble p:nth-child(3){
+    opacity: 0.5;
+}
+
+.fourth {
+    padding: 30px;
+    background-color: white;
+}
+
+.fourth_first{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.fourth_heading{
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.fourth_heading span{
+    color: rgb(109, 216, 21);
+}
+
+.fourth_para{
+    width: 40%;
+    text-align: center;
+}
+
+.fourth_second{
+    display: flex;
+}
+
+.card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.card img:hover{
+    box-shadow: 0px 0px 15px rgb(97, 174, 34);
+}
+
+.card p{
+    text-align: center;
+}
+
+
+.fifth{
+    background-color: rgb(97, 174, 34);
+    padding: 20px;
+}
+
+.fifth_first{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    color: white;
+}
+
+.fifth_form{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth_form input{
+    margin: 10px 20px;
+    height: 30px;
+    width: 20%;
+    padding: 25px 0px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.fifth_form input::placeholder{
+    color: rgb(191, 191, 191);
+    font-size: 15px;
+}
+
+.fifth_form_btn{
+    background-color: orange;
+    border-radius: 10px;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    /* box-shadow: 0 3px black; */
+    outline: none;
+}
+
+.fifth_form_btn:hover{
+    background-color:  rgb(61, 117, 16);
+    color: white;
+    border: 1px solid black;
+}
+
+.fifth_para{
+    color: white;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.sixth{
+    padding: 30px;
+    background-color: white;
+}
+
+.sixth_first{
+    margin-bottom: 5rem;
+}
+
+
+.sixth_second{
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+}
+
+.sixth_sec_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    background-color: rgb(234, 234, 232);
+    padding: 30px 0;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: -5rem;
+}
+
+.circle i{
+    font-size: 30px;
+}
+
+.card_text{
+    text-align: center;
+    margin: 20px;
+}
+
+.card_text h2, 
+.card_text p{
+    padding: 10px;
+}
+
+
+.card_read p{
+    color: rgb(97, 174, 34);
+    text-decoration: underline;
+}
+
+
+.seventh{
+    display: flex;
+    justify-content: flex-start;
+    gap: 4rem;
+    padding: 80px;
+    background-color: rgb(97, 174, 34);
+    color: white;
+}
+.seventh_one{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.seventh_one_{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.seventh_one_ .sub{
+    background-color: rgb(255, 191, 0);
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.seventh_one_copy{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+.seventh_one_copy i{
+    font-size: 20px;
+    color: black;
+}
+
+.seventh_two{
+    width: 70%;
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+.seventh_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding-right: 50px;
+    border-right: 2px solid rgb(248, 248, 248);
+}
+
+
+.seventh_list h2 span,
+.contacts h2 span{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.list_links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.list_links a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.seventh_contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.phonenums{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail{
+    display: flex;
+    gap: 20px;
+}
+
+.follow h2 span{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social i{
+    color: black;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+
+/* .useless{
+    height: 100vh;
+} */
